@@ -1,0 +1,45 @@
+
+use strict;
+use warnings;
+
+use Module::Build 0.3601;
+use lib qw{inc}; use XML::Grammar::Builder;
+
+my %module_build_args = (
+  "build_requires" => {
+    "File::Find" => 0,
+    "File::Spec" => 0,
+    "File::Temp" => 0,
+    "Module::Build" => "0.3601",
+    "Test::More" => 0,
+    "Test::XML::Ordered" => 0
+  },
+  "configure_requires" => {
+    "ExtUtils::MakeMaker" => "6.30",
+    "Module::Build" => "0.3601"
+  },
+  "dist_abstract" => "a vered by any other name will translate as sweet.",
+  "dist_author" => [
+    "Shlomi Fish <shlomif\@cpan.org>"
+  ],
+  "dist_name" => "XML-Grammar-Vered",
+  "dist_version" => "0.0.1",
+  "license" => "mit",
+  "module_name" => "XML::Grammar::Vered",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {
+    "MooX" => 0,
+    "XML::GrammarBase::Role::RelaxNG" => "v0.1.5",
+    "XML::GrammarBase::Role::XSLT" => "v0.1.5",
+    "autodie" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
+  "script_files" => []
+);
+
+
+my $build = XML::Grammar::Builder->new(%module_build_args);
+
+$build->create_build_script;

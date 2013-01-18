@@ -1,0 +1,32 @@
+---
+abstract: 'a vered by any other name will translate as sweet.'
+author:
+  - 'Shlomi Fish <shlomif@cpan.org>'
+build_requires:
+  File::Find: 0
+  File::Spec: 0
+  File::Temp: 0
+  Module::Build: 0.3601
+  Test::More: 0
+  Test::XML::Ordered: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: XML-Grammar-Vered
+requires:
+  MooX: 0
+  XML::GrammarBase::Role::RelaxNG: v0.1.5
+  XML::GrammarBase::Role::XSLT: v0.1.5
+  autodie: 0
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=XML-Grammar-Vered
+  repository: ssh://hg@bitbucket.org/shlomif/perl-XML-Grammar-Vered
+version: 0.0.1
