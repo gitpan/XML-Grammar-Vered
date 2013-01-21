@@ -1,5 +1,6 @@
 Build.PL
 Changes
+Changes~
 LICENSE
 MANIFEST
 META.yml
@@ -18,6 +19,8 @@ inc/XML/Grammar/Builder.pm~
 lib/XML/Grammar/Vered.pm
 lib/XML/Grammar/Vered.pm~
 t/00-compile.t
+t/00-libxml-basic.t
+t/00-libxslt-basic.t
 t/data/system-tests-1/expected-docbook/bad-elements.docbook.xml
 t/data/system-tests-1/input-xml/bad-elements.xml-grammar-vered.xml
 t/release-pod-coverage.t

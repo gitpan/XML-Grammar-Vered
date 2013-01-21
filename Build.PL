@@ -12,7 +12,10 @@ my %module_build_args = (
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
     "Test::More" => 0,
-    "Test::XML::Ordered" => 0
+    "Test::XML::Ordered" => 0,
+    "XML::LibXML" => 0,
+    "XML::LibXSLT" => 0,
+    "vars" => 0
   },
   "configure_requires" => {
     "ExtUtils::MakeMaker" => "6.30",
@@ -23,7 +26,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "XML-Grammar-Vered",
-  "dist_version" => "0.0.1",
+  "dist_version" => "0.0.2",
   "license" => "mit",
   "module_name" => "XML::Grammar::Vered",
   "recommends" => {},

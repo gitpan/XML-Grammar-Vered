@@ -17,7 +17,10 @@ my %WriteMakefileArgs = (
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
     "Test::More" => 0,
-    "Test::XML::Ordered" => 0
+    "Test::XML::Ordered" => 0,
+    "XML::LibXML" => 0,
+    "XML::LibXSLT" => 0,
+    "vars" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30",
@@ -35,7 +38,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.1",
+  "VERSION" => "0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
