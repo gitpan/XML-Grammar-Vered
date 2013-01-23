@@ -26,15 +26,15 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "XML-Grammar-Vered",
-  "dist_version" => "0.0.2",
+  "dist_version" => "0.0.3",
   "license" => "mit",
   "module_name" => "XML::Grammar::Vered",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "MooX" => 0,
-    "XML::GrammarBase::Role::RelaxNG" => "v0.1.5",
-    "XML::GrammarBase::Role::XSLT" => "v0.1.5",
+    "XML::GrammarBase::Role::RelaxNG" => "v0.2.1",
+    "XML::GrammarBase::Role::XSLT" => "v0.2.1",
     "autodie" => 0,
     "strict" => 0,
     "warnings" => 0

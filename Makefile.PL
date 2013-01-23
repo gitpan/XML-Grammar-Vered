@@ -32,13 +32,13 @@ my %WriteMakefileArgs = (
   "NAME" => "XML::Grammar::Vered",
   "PREREQ_PM" => {
     "MooX" => 0,
-    "XML::GrammarBase::Role::RelaxNG" => "v0.1.5",
-    "XML::GrammarBase::Role::XSLT" => "v0.1.5",
+    "XML::GrammarBase::Role::RelaxNG" => "v0.2.1",
+    "XML::GrammarBase::Role::XSLT" => "v0.2.1",
     "autodie" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.2",
+  "VERSION" => "0.0.3",
   "test" => {
     "TESTS" => "t/*.t"
   }
