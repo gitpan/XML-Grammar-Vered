@@ -4,7 +4,6 @@ LICENSE
 MANIFEST
 MANIFEST.SKIP
 META.yml
-Makefile.PL
 README
 TODO.txt
 dist.ini
