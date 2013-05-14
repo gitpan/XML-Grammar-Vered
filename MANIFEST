@@ -15,8 +15,9 @@ lib/XML/Grammar/Vered.pm
 t/00-compile.t
 t/00-libxml-basic.t
 t/00-libxslt-basic.t
-t/data/system-tests-1/expected-docbook/bad-elements.docbook.xml
-t/data/system-tests-1/input-xml/bad-elements.xml-grammar-vered.xml
+t/data/system-tests-1/expected-docbook/perl-begin-page.docbook.xml
+t/data/system-tests-1/input-xml/perl-begin-page.xml-grammar-vered.xml
+t/release-cpan-changes.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/xslt.t
