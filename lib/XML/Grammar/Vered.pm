@@ -12,7 +12,7 @@ use MooX qw/late/;
 use XML::GrammarBase::Role::RelaxNG v0.2.2;
 use XML::GrammarBase::Role::XSLT v0.2.2;
 
-our $VERSION = '0.0.7';
+our $VERSION = '0.0.8';
 
 with ('XML::GrammarBase::Role::RelaxNG');
 with XSLT(output_format => 'docbook');
@@ -33,7 +33,7 @@ __END__
 
 =pod
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -41,7 +41,7 @@ XML::Grammar::Vered - a vered by any other name will translate as sweet.
 
 =head1 VERSION
 
-version 0.0.7
+version 0.0.8
 
 =head1 SYNOPSIS
 
@@ -74,8 +74,6 @@ Vered gets translated to DocBook 5/XML, and from there to other formats.
 “Vered” is the Hebrew word for “a rose”, and I came up with the name because
 I did not know what to call this format, and thought of “a rose by any other
 name will smell as sweet”.
-
-=encoding utf8
 
 =head1 EXAMPLE
 
