@@ -12,7 +12,7 @@ use MooX qw/late/;
 use XML::GrammarBase::Role::RelaxNG v0.2.2;
 use XML::GrammarBase::Role::XSLT v0.2.2;
 
-our $VERSION = '0.0.8';
+our $VERSION = '0.0.9';
 
 with ('XML::GrammarBase::Role::RelaxNG');
 with XSLT(output_format => 'docbook');
@@ -41,7 +41,7 @@ XML::Grammar::Vered - a vered by any other name will translate as sweet.
 
 =head1 VERSION
 
-version 0.0.8
+version 0.0.9
 
 =head1 SYNOPSIS
 
